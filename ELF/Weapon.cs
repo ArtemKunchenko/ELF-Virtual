@@ -2,7 +2,7 @@
 
 namespace ELF
 {
-    internal class Weapon
+    public class Weapon
     {
         public string Name { get; set; }    
         public int Damage { get; set; }
@@ -12,5 +12,7 @@ namespace ELF
             Name = name;
             Damage = damage;
         }
+        public void SetName(string name) { Name = name; }
+        public void SetDamage(int damage) { Damage = damage; }
     }
 }

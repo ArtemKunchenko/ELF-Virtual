@@ -41,9 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ElementalSummer.cs" />
     <Compile Include="ELF.cs" />
+    <Compile Include="ElvinElder.cs" />
+    <Compile Include="ElvinFighter.cs" />
+    <Compile Include="ElvinKnight.cs" />
+    <Compile Include="ElvinMystic.cs" />
+    <Compile Include="ElvinOracle.cs" />
+    <Compile Include="ElvinScout.cs" />
+    <Compile Include="ElvinWizard.cs" />
     <Compile Include="Magic.cs" />
+    <Compile Include="Plainswalker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SilverRanger.cs" />
+    <Compile Include="SpellSinger.cs" />
+    <Compile Include="Swordsinger.cs" />
+    <Compile Include="TempleKnight.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

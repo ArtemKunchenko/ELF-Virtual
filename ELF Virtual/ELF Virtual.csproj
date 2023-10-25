@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ELF\ELF.csproj">
+      <Project>{1c1e3ba0-6bb8-4d62-bcd5-cdd8f738db99}</Project>
+      <Name>ELF</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

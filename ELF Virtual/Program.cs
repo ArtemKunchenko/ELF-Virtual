@@ -1,4 +1,5 @@
 ﻿using System;
+using ELF;
 
 namespace ELF_Virtual
 {
@@ -6,6 +7,10 @@ namespace ELF_Virtual
     {
         static void Main(string[] args)
         {
+           ElvinElder player = new ElvinElder("Alex");
+            player.ShowHero();
+           
+            Console.ReadKey();
         }
     }
 }
