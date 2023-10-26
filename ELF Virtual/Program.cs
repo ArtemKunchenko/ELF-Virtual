@@ -14,7 +14,7 @@ namespace ELF_Virtual
             string name = "";
             int choice = 0;
             ChoiceHero(ref type, ref subtype, ref profession, ref name);
-            choice = type * 100 + subtype * 10 + profession;
+            choice = type * 100 + subtype * 10 + profession;//use three-digit key
             var player = CreateHero(choice, name);
             TempleKnight enemy = new TempleKnight("Bob");
             Console.WriteLine("\t\tYour Hero ");
